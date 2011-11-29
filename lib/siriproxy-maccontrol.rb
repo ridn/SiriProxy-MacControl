@@ -42,18 +42,7 @@ reply = system("open", 'file:///Applications/' )
     request_completed #always complete your request! Otherwise the phone will "spin" at the user!
   end
 
-    listen_for /Open MMI/ do
-    add_views = SiriAddViews.new
-    add_views.make_root(last_ref_id)
-    utterance = SiriAssistantUtteranceView.new("Opening Modmyi!")
-    reply = system("open", "http://www.modmyi.com" )
 
-    add_views.views << utterance
-    
-      send_object add_views #send_object takes a hash or a SiriObject object
-    
-    request_completed #always complete your request! Otherwise the phone will "spin" at the user!
-  end
 
 
     listen_for /Open twitter/ do
