@@ -1,0 +1,33 @@
+This is a simple plugin for the SiriProxy which can be found here:
+https://github.com/plamoni/SiriProxy/
+
+This allows the user to use siri to do a few simple commands which control the mac running the proxy.
+
+Currently you can try...
+
+"Open Google."
+"Open Twitter." 
+"Open LaunchPad." (Only for Lion users)
+"Close LaunchPad." (Just the same as above, only done for wording reasons)
+"Open Applications Folder."
+"Open iTunes." (Only applicable if iTunes is located in the default /Applications/ directory.)
+"Bake me a cake." (only for fun..)
+
+
+iTunes Controls....
+the following commands allow you to use siri to control your mac's iTunes.
+However a script is needed which can be located here:
+http://hints.macworld.com/article.php?story=20011108211802830
+
+Once saved and put in the correct directory with permissions 0755 and the name 'itunes', you may use the following commands.
+
+"Mac play." 
+"Mac pause."
+"Mac next song."
+"Mac last song."
+"Mac mute." (only mutes iTunes, not the system wide volume)
+"Mac unmute."
+
+That is currently all I added, it is very simple and quick to add more!
+
+Enjoy!
